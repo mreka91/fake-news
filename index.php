@@ -13,16 +13,17 @@ require __DIR__ . '/functions.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Fake Neews For You</title>
+    <title>Fake News For You</title>
 </head>
 
 <body>
 </body>
+<h1>Get your daily news fix from us!</h1>
 <div>
     <?php foreach ($articles as $article) : ?>
-        <h1>
+        <h2>
             <?= $article['title']; ?>
-        </h1>
+        </h2>
         <img src="<?= $article['image']; ?>" alt="">
         <p>
             <?= $article['content']; ?>
