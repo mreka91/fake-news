@@ -35,6 +35,7 @@ require __DIR__ . '/functions.php';
         </p>
         <p>Likes:
             <?= $article['likes']; ?>
+            &#10084;
         </p>
 
     <?php endforeach ?>
