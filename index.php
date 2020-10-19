@@ -23,6 +23,7 @@ require __DIR__ . '/functions.php';
         <h1>
             <?= $article['title']; ?>
         </h1>
+        <img src="<?= $article['image']; ?>" alt="">
         <p>
             <?= $article['content']; ?>
         </p>
