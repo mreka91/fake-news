@@ -3,29 +3,95 @@
 }
 * {
     box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
 }
 
 body {
     margin: 0;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 18;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    padding: 100px;
-    background-color: var(--main-bg-color);
-    align-items: center;
+/* HERO header */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://i.pinimg.com/originals/7c/31/05/7c31052768c5ed41602ede538fb87dcb.jpg");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
-h1 {
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: x-large;
+}
+
+.hero-text h1 {
     font-weight: bold;
+}
+
+/* POSTS */
+.post-preview > a {
+    color: #212529;
+}
+
+.post-preview > a:focus,
+.post-preview > a:hover {
+    text-decoration: none;
+    color: #0085a1;
+}
+
+.post-preview > a > .post-title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.post-preview > a > .post-subtitle {
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+
+.post-preview > .post-meta {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0;
+    color: #868e96;
+}
+
+.post-preview > .post-meta > a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.post-preview > .post-meta > a:focus,
+.post-preview > .post-meta > a:hover {
+    text-decoration: underline;
+    color: #0085a1;
+}
+
+@media only screen and (min-width: 768px) {
+    .post-preview > a > .post-title {
+        font-size: 36px;
+    }
 }
 
 /* FOOTER */
 
 footer {
-    padding: 50px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     background-color: var(--main-bg-color);
@@ -38,6 +104,7 @@ footer {
 }
 .fa {
     padding: 20px;
+    margin: 2px;
     font-size: 30px;
     width: 50px;
     text-align: center;
