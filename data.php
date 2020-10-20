@@ -7,33 +7,33 @@ declare(strict_types=1);
 $authors = [
     [
         'id' => '1',
-        'name' => 'Reka Madarasz'
+        'name' => 'Dwight Schrute'
     ],
 
     [
         'id' => '2',
-        'name' => 'Peter Szabo'
+        'name' => 'Jim Halpert'
     ],
 
     [
         'id' => '3',
-        'name' => 'Lisa Madarasz'
+        'name' => 'Pam Beesly'
     ],
 
     [
         'id' => '4',
-        'name' => 'Jeff Besos'
+        'name' => 'Michael Scott'
     ],
 
     [
         'id' => '5',
-        'name' => 'Bob Ross'
+        'name' => 'Angela Martin'
     ]
 ];
 
 $articles = [
     [
-        'title' => 'Lorem title',
+        'title' => "The people person's paper people",
         'content' => 'Through concentration, I can raise and lower my cholesterol at will. I train my major blood vessels to retract into my body on command. Also, I can retract my penis up into itself. When I die. I want to be frozen. And if they have to freeze me in pieces, so be it. I will wake up stronger than ever, because I will have used that time, to figure out exactly why I died. And what moves I could have used to defend myself better now that I know what hold he had me in. I am fast. To give you a reference point, I am somewhere between a snake and a mongoose... And a panther.',
         'author' => $authors[0]['name'],
         'published_date' => '2020-10-19',
@@ -42,7 +42,7 @@ $articles = [
     ],
 
     [
-        'title' => 'Lorem title',
+        'title' => "The people person's paper people",
         'content' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat accusamus totam id exercitationem, adipisci nisi ipsam impedit odio beatae distinctio aperiam, delectus iusto laudantium quasi est culpa quidem enim. Blanditiis?',
         'author' => $authors[0]['name'],
         'published_date' => '2020-10-18',
@@ -51,7 +51,7 @@ $articles = [
     ],
 
     [
-        'title' => 'Lorem title',
+        'title' => "The people person's paper people",
         'content' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat accusamus totam id exercitationem, adipisci nisi ipsam impedit odio beatae distinctio aperiam, delectus iusto laudantium quasi est culpa quidem enim. Blanditiis?',
         'author' => $authors[1]['name'],
         'published_date' => '2020-10-17',
@@ -60,7 +60,7 @@ $articles = [
     ],
 
     [
-        'title' => 'Lorem title',
+        'title' => "The people person's paper people",
         'content' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat accusamus totam id exercitationem, adipisci nisi ipsam impedit odio beatae distinctio aperiam, delectus iusto laudantium quasi est culpa quidem enim. Blanditiis?',
         'author' => $authors[1]['name'],
         'published_date' => '2020-10-17',
@@ -69,7 +69,7 @@ $articles = [
     ],
 
     [
-        'title' => 'Lorem title',
+        'title' => "The people person's paper people",
         'content' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat accusamus totam id exercitationem, adipisci nisi ipsam impedit odio beatae distinctio aperiam, delectus iusto laudantium quasi est culpa quidem enim. Blanditiis?',
         'author' => $authors[2]['name'],
         'published_date' => '2020-10-16',
@@ -78,7 +78,7 @@ $articles = [
     ],
 
     [
-        'title' => 'Lorem title',
+        'title' => "The people person's paper people",
         'content' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat accusamus totam id exercitationem, adipisci nisi ipsam impedit odio beatae distinctio aperiam, delectus iusto laudantium quasi est culpa quidem enim. Blanditiis?',
         'author' => $authors[2]['name'],
         'published_date' => '2020-10-15',
@@ -87,7 +87,7 @@ $articles = [
     ],
 
     [
-        'title' => 'Lorem title',
+        'title' => "The people person's paper people",
         'content' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat accusamus totam id exercitationem, adipisci nisi ipsam impedit odio beatae distinctio aperiam, delectus iusto laudantium quasi est culpa quidem enim. Blanditiis?',
         'author' => $authors[3]['name'],
         'published_date' => '2020-10-14',
@@ -96,7 +96,7 @@ $articles = [
     ],
 
     [
-        'title' => 'Lorem title',
+        'title' => "The people person's paper people",
         'content' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat accusamus totam id exercitationem, adipisci nisi ipsam impedit odio beatae distinctio aperiam, delectus iusto laudantium quasi est culpa quidem enim. Blanditiis?',
         'author' => $authors[3]['name'],
         'published_date' => '2020-10-13',
@@ -105,7 +105,7 @@ $articles = [
     ],
 
     [
-        'title' => 'Lorem title',
+        'title' => "The people person's paper people",
         'content' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat accusamus totam id exercitationem, adipisci nisi ipsam impedit odio beatae distinctio aperiam, delectus iusto laudantium quasi est culpa quidem enim. Blanditiis?',
         'author' => $authors[4]['name'],
         'published_date' => '2020-10-12',
@@ -114,7 +114,7 @@ $articles = [
     ],
 
     [
-        'title' => 'Lorem title',
+        'title' => "The people person's paper people",
         'content' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat accusamus totam id exercitationem, adipisci nisi ipsam impedit odio beatae distinctio aperiam, delectus iusto laudantium quasi est culpa quidem enim. Blanditiis?',
         'author' => $authors[4]['name'],
         'published_date' => '2020-10-10',
