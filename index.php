@@ -31,7 +31,7 @@ require __DIR__ . '/functions.php';
     <header class="hero-image">
         <div class="hero-text">
             <h1>The Office Gossip!</h1>
-            <span>Only the truth, brought to you by the best from Dunder Mifflin</span>
+            <span>The latest news, brought to you by the best from Dunder Mifflin</span>
         </div>
     </header>
 
