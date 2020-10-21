@@ -16,7 +16,7 @@ body {
     margin: 0;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 18;
-    background-color: var(--main-bg-color);
+    background-color: var(--bg-color);
 }
 
 /*NAV*/
