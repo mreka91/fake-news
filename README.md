@@ -1,6 +1,6 @@
 # fake-news
 
-## Making an Office themed fake news site with html, css and php for my first school project
+## Making a somewhat retro feel the Office US themed fake news site/blog with html, css and php for my first school project
 
 ![](https://media.giphy.com/media/9FW5ShdnPyKd6eCwiA/giphy.gif)
 
