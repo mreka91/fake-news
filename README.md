@@ -1,9 +1,8 @@
 # fake-news
 
-## Making a somewhat retro feel the Office US themed fake news site/blog with html, css and php for my first school project
-
 ![](https://media.giphy.com/media/9FW5ShdnPyKd6eCwiA/giphy.gif)
 
+## Making a somewhat retro feel the Office US themed fake news site/blog with html, css and php for my first school project
 
 ## How to use it
 1. Clone the repository https://github.com/mreka91/fake-news using Github Desktop or terminal of your choice
