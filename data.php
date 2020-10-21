@@ -36,7 +36,7 @@ $articles = [
         'title' => "The people person's paper people",
         'content' => "<p>Through concentration, I can raise and lower my cholesterol at will. I train my major blood vessels to retract into my body on command. Also, I can retract my penis up into itself.</p><p>When I die. I want to be frozen. And if they have to freeze me in pieces, so be it. I will wake up stronger than ever, because I will have used that time, to figure out exactly why I died. And what moves I could have used to defend myself better now that I know what hold he had me in. I am fast. To give you a reference point, I am somewhere between a snake and a mongoose... And a panther.</p>Do I feel bad about betraying Jim? Not at all. That's the game. Convince him we're in an alliance, get some information, throw him to the wolves. That's politics baby! Get what you can out of someone, then crush them. I think Jim might have learned a very valuable lesson. Jim is my enemy. But it turns out that Jim is also his own worst enemy. And the enemy of my enemy is my friend. So Jim, is actually my friend. But, because he is his own worst enemy, the enemy of my friend is my enemy so actually Jim is my enemy.</p>",
         'author' => $authors[0]['name'],
-        'published_date' => '2020-10-19',
+        'published_date' => '2020-10-11',
         'likes' => '10',
         'image' => 'https://picsum.photos/600/400/?random'
     ],

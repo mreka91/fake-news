@@ -38,7 +38,9 @@ require __DIR__ . '/functions.php';
 
     <!-- POSTS-->
     <main class="container">
+        <?php usort($articles, 'date_compare'); ?>
         <?php foreach ($articles as $article) : ?>
+
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="post-preview">
