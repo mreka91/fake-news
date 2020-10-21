@@ -1,5 +1,6 @@
 :root {
-    --main-bg-color: rgb(224, 221, 221);
+    --secundary-color: rgb(224, 221, 221);
+    --bg-color: #f8f9fa;
 }
 * {
     box-sizing: border-box;
@@ -15,7 +16,10 @@ body {
     margin: 0;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 18;
+    background-color: var(--main-bg-color);
 }
+
+/*NAV*/
 
 /* HERO header */
 .hero-image {
@@ -59,7 +63,7 @@ body {
     margin-bottom: 10px;
 }
 
-.post-preview > a > .post-subtitle {
+.post-preview > a > .post-text {
     font-weight: 300;
     margin: 0 0 10px;
 }
@@ -82,6 +86,11 @@ body {
     color: #0085a1;
 }
 
+.post-preview > img {
+    margin: 10px;
+    width: 80%;
+}
+
 @media only screen and (min-width: 768px) {
     .post-preview > a > .post-title {
         font-size: 36px;
@@ -94,7 +103,7 @@ footer {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    background-color: var(--main-bg-color);
+    background-color: var(--secundary-color);
     align-items: center;
 }
 

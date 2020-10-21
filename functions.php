@@ -12,3 +12,16 @@ function date_compare($element1, $element2)
     $datetime2 = strtotime($element2['published_date']);
     return $datetime2 - $datetime1;
 }
+
+
+
+//shorten the blog post text on the index page
+
+function shortenText($text, $chars = 400)
+{
+    $text = $text . " ";
+    $text = substr($text, 0, $chars);
+    $text = substr($text, 0, strrpos($text, ' '));
+    $text = $text . "..."; //to let the user know the article continues
+    return $text;
+}

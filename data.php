@@ -38,21 +38,22 @@ $articles = [
         'author' => $authors[0]['name'],
         'published_date' => '2020-10-11',
         'likes' => '10',
-        'image' => 'https://picsum.photos/600/400/?random'
+        'id' => '1',
+        'author_id' => '1',
+        'image' => 'https://www.denofgeek.com/wp-content/uploads/2020/04/the_office_dwight.jpg.png?resize=768%2C432'
     ],
 
     [
         'title' => "The people person's paper people",
-        'content' => "
-
-
-        <pWhen>Jim is my enemy. But it turns out that Jim is also his own worst enemy. And the enemy of my enemy is my friend. So Jim, is actually my friend. But, because he is his own worst enemy, the enemy of my friend is my enemy so actually Jim is my enemy. Powerpoints are the peacocks of the business world; all show, no meat.</pWhen>
+        'content' => " <pWhen>Jim is my enemy. But it turns out that Jim is also his own worst enemy. And the enemy of my enemy is my friend. So Jim, is actually my friend. But, because he is his own worst enemy, the enemy of my friend is my enemy so actually Jim is my enemy. Powerpoints are the peacocks of the business world; all show, no meat.</pWhen>
         <p>I was the youngest pilot in Pan Am history. When I was four, the pilot let me ride in the cockpit and fly the plane with him. And I was four, and I was great and I would have landed it, but my dad wanted us to go back to our seats. I come from a long line of fighters, my maternal grandfather was the toughest guy I ever knew. World War II veteran. He killed twenty men and then spent the rest of the war in an Allied prison camp... My father battled blood pressure and obesity all his life... different kind of fight.</p><p>
         Do I feel bad about betraying Jim? Not at all. That's the game. Convince him we're in an alliance, get some information, throw him to the wolves. That's politics baby! Get what you can out of someone, then crush them. I think Jim might have learned a very valuable lesson.</p>",
         'author' => $authors[0]['name'],
         'published_date' => '2020-10-18',
         'likes' => '20',
-        'image' => 'https://picsum.photos/600/400/?random'
+        'id' => '2',
+        'author_id' => '1',
+        'image' => 'https://cdn.shopify.com/s/files/1/0250/1217/4900/products/0-11oz_mug-schrutefarms-ro_620x.jpg?v=1572164333'
     ],
 
     [
@@ -61,7 +62,9 @@ $articles = [
         'author' => $authors[1]['name'],
         'published_date' => '2020-10-17',
         'likes' => '70',
-        'image' => 'https://picsum.photos/600/400/?random'
+        'id' => '3',
+        'author_id' => '2',
+        'image' => 'https://d2j1wkp1bavyfs.cloudfront.net/wp-content/uploads/2018/07/01032321/4236043.jpg?q=50'
     ],
 
     [
@@ -70,7 +73,9 @@ $articles = [
         'author' => $authors[1]['name'],
         'published_date' => '2020-10-17',
         'likes' => '50',
-        'image' => 'https://picsum.photos/600/400/?random'
+        'id' => '4',
+        'author_id' => '2',
+        'image' => 'https://i.pinimg.com/originals/c9/32/83/c932837c36cb0cc2d60d290c72235f50.png'
     ],
 
     [
@@ -79,7 +84,9 @@ $articles = [
         'author' => $authors[2]['name'],
         'published_date' => '2020-10-16',
         'likes' => '20',
-        'image' => 'https://picsum.photos/600/400/?random'
+        'id' => '5',
+        'author_id' => '3',
+        'image' => 'https://thebrag.com/wp-content/uploads/2020/02/PAMHEAD.jpg'
     ],
 
     [
@@ -88,33 +95,31 @@ $articles = [
         'author' => $authors[2]['name'],
         'published_date' => '2020-10-15',
         'likes' => '150',
-        'image' => 'https://picsum.photos/600/400/?random'
+        'id' => '6',
+        'author_id' => '3',
+        'image' => 'https://www.lifeandstylemag.com/wp-content/uploads/2019/02/Jenna-Fischer-Best-Quotes-The-Office-Promo.jpg'
     ],
 
     [
         'title' => "The people person's paper people",
-        'content' =>
-
-
-
-        "<p>Wikipedia is the best thing ever. Anyone in the world can write anything they want about any subject so you know you are getting the best possible information.</p><p>I feel God in this Chili’s tonight I don’t care what they say about me. I just want to eat. Which I realize is a lot to ask for. At a dinner party. I’m guessing Angela is the one in the neighborhood that gives the trick-or-treaters toothbrushes. Pennies. Walnuts. How is it possible that in five years, I’ve had two engagements and only one chair?</p><p>Do I need to be liked? Absolutely not. I like to be liked. I enjoy being liked. I have to be liked. But it’s not like this compulsive need like my need to be praised.</p><p>I learned a while back that if I do not text 911, people do not return my calls. Um, but people always return my calls because they think that something horrible has happened.</p>",
+        'content' => "<p>Wikipedia is the best thing ever. Anyone in the world can write anything they want about any subject so you know you are getting the best possible information.</p><p>I feel God in this Chili’s tonight I don’t care what they say about me. I just want to eat. Which I realize is a lot to ask for. At a dinner party. I’m guessing Angela is the one in the neighborhood that gives the trick-or-treaters toothbrushes. Pennies. Walnuts. How is it possible that in five years, I’ve had two engagements and only one chair?</p><p>Do I need to be liked? Absolutely not. I like to be liked. I enjoy being liked. I have to be liked. But it’s not like this compulsive need like my need to be praised.</p><p>I learned a while back that if I do not text 911, people do not return my calls. Um, but people always return my calls because they think that something horrible has happened.</p>",
         'author' => $authors[3]['name'],
         'published_date' => '2020-10-14',
         'likes' => '50',
-        'image' => 'https://picsum.photos/600/400/?random'
+        'id' => '7',
+        'author_id' => '4',
+        'image' => 'https://static3.srcdn.com/wordpress/wp-content/uploads/2020/05/michael-scott-feature-image-for-the-office.jpg'
     ],
 
     [
         'title' => "The people person's paper people",
-        'content' =>
-
-
-
-        "<p>Wikipedia is the best thing ever. Anyone in the world can write anything they want about any subject so you know you are getting the best possible information.</p><p>I feel God in this Chili’s tonight I don’t care what they say about me. I just want to eat. Which I realize is a lot to ask for. At a dinner party. I’m guessing Angela is the one in the neighborhood that gives the trick-or-treaters toothbrushes. Pennies. Walnuts. How is it possible that in five years, I’ve had two engagements and only one chair?</p><p>Do I need to be liked? Absolutely not. I like to be liked. I enjoy being liked. I have to be liked. But it’s not like this compulsive need like my need to be praised.</p><p>I learned a while back that if I do not text 911, people do not return my calls. Um, but people always return my calls because they think that something horrible has happened.</p>",
+        'content' => "<p>Wikipedia is the best thing ever. Anyone in the world can write anything they want about any subject so you know you are getting the best possible information.</p><p>I feel God in this Chili’s tonight I don’t care what they say about me. I just want to eat. Which I realize is a lot to ask for. At a dinner party. I’m guessing Angela is the one in the neighborhood that gives the trick-or-treaters toothbrushes. Pennies. Walnuts. How is it possible that in five years, I’ve had two engagements and only one chair?</p><p>Do I need to be liked? Absolutely not. I like to be liked. I enjoy being liked. I have to be liked. But it’s not like this compulsive need like my need to be praised.</p><p>I learned a while back that if I do not text 911, people do not return my calls. Um, but people always return my calls because they think that something horrible has happened.</p>",
         'author' => $authors[3]['name'],
         'published_date' => '2020-10-13',
         'likes' => '50',
-        'image' => 'https://picsum.photos/600/400/?random'
+        'id' => '8',
+        'author_id' => '4',
+        'image' => 'https://img1.looper.com/img/gallery/the-offices-michael-scott-was-almost-a-murderer/intro-1591207215.jpg'
     ],
 
     [
@@ -124,7 +129,9 @@ $articles = [
         'author' => $authors[4]['name'],
         'published_date' => '2020-10-12',
         'likes' => '70',
-        'image' => 'https://picsum.photos/600/400/?random'
+        'id' => '9',
+        'author_id' => '5',
+        'image' => 'https://s.yimg.com/uu/api/res/1.2/a7PgvEtqTnI74ESFB8aJ8g--~B/aD0zMjg7dz01MDA7c209MTthcHBpZD15dGFjaHlvbg--/http://media.zenfs.com/en-US/homerun/hello_giggles_454/a786ff28b7506f3966b127ab2ea8c53d'
     ],
 
     [
@@ -134,6 +141,8 @@ $articles = [
         'author' => $authors[4]['name'],
         'published_date' => '2020-10-10',
         'likes' => '60',
-        'image' => 'https://picsum.photos/600/400/?random'
+        'id' => '10',
+        'author_id' => '5',
+        'image' => 'https://www.datocms-assets.com/151/1471782480-angela.jpg?w=500&fm=jpg'
     ]
 ];
