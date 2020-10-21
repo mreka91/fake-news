@@ -62,6 +62,7 @@ require __DIR__ . '/functions.php';
 
     <!-- POSTS-->
     <main class="container">
+        <marquee>Breaking news! Read about what happened at Schrute's Beet Farm.</marquee>
         <?php usort($articles, 'date_compare'); ?>
         <?php foreach ($articles as $article) : ?>
 

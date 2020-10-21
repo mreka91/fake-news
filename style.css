@@ -46,6 +46,12 @@ body {
     font-weight: bold;
 }
 
+marquee {
+    font-size: 30px;
+    font-weight: 600;
+    color: red;
+    font-family: "Source Sans Pro", sans-serif;
+}
 /* POSTS */
 .post-preview > a {
     color: #212529;
