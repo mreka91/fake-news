@@ -28,7 +28,7 @@ require __DIR__ . '/functions.php';
 
 <body>
 
-    <!-- Navigation -->
+    <!-- NAV-->
     <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light ">
         <a class="navbar-brand" href="#">Dunder Mifflin</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,6 +51,7 @@ require __DIR__ . '/functions.php';
             </span>
         </div>
     </nav>
+
     <!-- HEADER-->
     <header class="hero-image">
         <div class="hero-text">
@@ -65,7 +66,6 @@ require __DIR__ . '/functions.php';
         <marquee>Breaking news! Read about what happened at Schrute's Beet Farm.</marquee>
         <?php usort($articles, 'date_compare'); ?>
         <?php foreach ($articles as $article) : ?>
-
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="post-preview">
@@ -102,7 +102,11 @@ require __DIR__ . '/functions.php';
             <a href="#" class="fa fa-twitter"></a>
             <a href="#" class="fa fa-linkedin"></a>
         </div>
-        <p>&copy; 2013 Dunder Mifflin<p>
+        <p>
+            <p>Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script> Dunder Mifflin<p>
     </footer>
 
 
