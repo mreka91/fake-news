@@ -55,7 +55,7 @@ require __DIR__ . '/functions.php';
                             <?= $article['published_date']; ?></p>
                         <p class="post-meta">Likes:
                             <?= $article['likes']; ?>
-                            &#10084;
+                            &#10084;&#65039;
                         </p>
                     </div>
                     <hr>
