@@ -40,7 +40,7 @@ require __DIR__ . '/functions.php';
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#">Latest News</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
