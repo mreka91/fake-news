@@ -1,8 +1,9 @@
 <?php require __DIR__ . '/header.php'; ?>
 
-<!-- POSTS-->
+<!-- Articles-->
 <main class="container">
     <marquee>Breaking news! Read about what happened at Schrute's Beet Farm.</marquee>
+
     <?php usort($articles, 'date_compare'); ?>
     <?php foreach ($articles as $article) : ?>
         <?php
@@ -37,6 +38,7 @@
 
         </div>
     <?php endforeach ?>
+
 </main>
 
 <?php require __DIR__ . '/footer.php'; ?>
