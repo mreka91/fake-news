@@ -19,7 +19,7 @@ body {
     background-color: var(--bg-color);
 }
 
-/*NAV*/
+/*NAV--pure bootstrap*/
 
 /* HERO header */
 .hero-image {
@@ -52,6 +52,7 @@ marquee {
     color: red;
     font-family: "Source Sans Pro", sans-serif;
 }
+
 /* POSTS */
 .post-preview > a {
     color: #212529;

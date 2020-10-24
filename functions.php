@@ -6,7 +6,7 @@ require_once __DIR__ . '/data.php';
 // execute/run any functions in this file. Keep it dumb.
 
 // Comparison function to get the newswest post first
-function date_compare($element1, $element2)
+function date_compare(array $element1, array  $element2): int
 {
     $datetime1 = strtotime($element1['published_date']);
     $datetime2 = strtotime($element2['published_date']);
@@ -14,9 +14,7 @@ function date_compare($element1, $element2)
 }
 
 
-
-//shorten the blog post text on the index page
-
+//shorten the  text on the index page
 function shortenText(string $text, $chars = 400): string
 {
     $text = $text . " ";
@@ -24,4 +22,15 @@ function shortenText(string $text, $chars = 400): string
     $text = substr($text, 0, strrpos($text, ' '));
     $text = $text . "..."; //to let the user know the article continues
     return $text;
+}
+
+
+//to match the article from the articles array
+function getArticleById(array $articles, string $id): array
+{
+    foreach ($articles as $article) {
+        if ($article['id'] === $id) {
+            return $article;
+        }
+    }
 }
