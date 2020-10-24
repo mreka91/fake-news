@@ -45,7 +45,7 @@ $articles = [
 
     [
         'title' => "The people person's paper people",
-        'content' => " <pWhen>Jim is my enemy. But it turns out that Jim is also his own worst enemy. And the enemy of my enemy is my friend. So Jim, is actually my friend. But, because he is his own worst enemy, the enemy of my friend is my enemy so actually Jim is my enemy. Powerpoints are the peacocks of the business world; all show, no meat.</pWhen>
+        'content' => "<p>Jim is my enemy. But it turns out that Jim is also his own worst enemy. And the enemy of my enemy is my friend. So Jim, is actually my friend. But, because he is his own worst enemy, the enemy of my friend is my enemy so actually Jim is my enemy. Powerpoints are the peacocks of the business world; all show, no meat.</p>
         <p>I was the youngest pilot in Pan Am history. When I was four, the pilot let me ride in the cockpit and fly the plane with him. And I was four, and I was great and I would have landed it, but my dad wanted us to go back to our seats. I come from a long line of fighters, my maternal grandfather was the toughest guy I ever knew. World War II veteran. He killed twenty men and then spent the rest of the war in an Allied prison camp... My father battled blood pressure and obesity all his life... different kind of fight.</p><p>
         Do I feel bad about betraying Jim? Not at all. That's the game. Convince him we're in an alliance, get some information, throw him to the wolves. That's politics baby! Get what you can out of someone, then crush them. I think Jim might have learned a very valuable lesson.</p>",
         'author' => $authors[0]['name'],

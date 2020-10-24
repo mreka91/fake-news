@@ -2,8 +2,6 @@
 
 declare(strict_types=1);
 require_once __DIR__ . '/data.php';
-// This is the file where you can keep all your functions. Remember to NOT
-// execute/run any functions in this file. Keep it dumb.
 
 // Comparison function to get the newswest post first
 function date_compare(array $element1, array  $element2): int
@@ -20,7 +18,7 @@ function shortenText(string $text, $chars = 400): string
     $text = $text . " ";
     $text = substr($text, 0, $chars);
     $text = substr($text, 0, strrpos($text, ' '));
-    $text = $text . "..."; //to let the user know the article continues
+    $text = $text . "..."; //to let the reader know the article continues
     return $text;
 }
 

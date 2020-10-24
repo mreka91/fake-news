@@ -1,7 +1,5 @@
-<!-- FOOTER-->
-
 <footer>
-    <p>For more definitely not fake news, find us on social media:</p>
+    <p>For more definitely not fake news, follow us on social media:</p>
     <div class="social">
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>

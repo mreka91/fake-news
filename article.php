@@ -1,6 +1,7 @@
+<!-- HEADER-->
 <?php require __DIR__ . '/header.php'; ?>
 
-<!-- Article-->
+<!-- ARTICLE-->
 <main class="container">
     <marquee>Breaking news! Read about what happened at Schrute's Beet Farm.</marquee>
     <?php usort($articles, 'date_compare'); ?>
@@ -24,7 +25,7 @@
                 </p>
 
                 <p class="post-meta">Posted by
-                    <a href="#"><?= $article['author']; ?></a>
+                    <a href="authors.php"><?= $article['author']; ?></a>
                     <?= $article['published_date']; ?></p>
 
                 <p class="post-meta">Likes:
@@ -34,9 +35,7 @@
 
             </div>
         </div>
-
     </div>
-
 </main>
-
+<!-- FOOTER-->
 <?php require __DIR__ . '/footer.php'; ?>

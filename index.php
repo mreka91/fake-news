@@ -1,6 +1,7 @@
+<!-- HEADER-->
 <?php require __DIR__ . '/header.php'; ?>
 
-<!-- Articles-->
+<!-- ARTICLES-->
 <main class="container">
     <marquee>Breaking news! Read about what happened at Schrute's Beet Farm.</marquee>
 
@@ -13,6 +14,7 @@
         $likes = $article['likes'];
         $author = $article['author'];
         $id = $article['id'];
+
         ?>
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
@@ -26,7 +28,7 @@
                         <?= shortenText($content); ?>
                     </p>
                     <p class="post-meta">Posted by
-                        <a href="#"><?= $author; ?></a>
+                        <a href="authors.php"><?= $author; ?></a>
                         <?= $date; ?></p>
                     <p class="post-meta">Likes:
                         <?= $likes; ?>
@@ -41,4 +43,5 @@
 
 </main>
 
+<!-- FOOTER-->
 <?php require __DIR__ . '/footer.php'; ?>
