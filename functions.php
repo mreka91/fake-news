@@ -17,7 +17,7 @@ function date_compare($element1, $element2)
 
 //shorten the blog post text on the index page
 
-function shortenText($text, $chars = 400)
+function shortenText(string $text, $chars = 400): string
 {
     $text = $text . " ";
     $text = substr($text, 0, $chars);
