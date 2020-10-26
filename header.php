@@ -20,6 +20,8 @@ require __DIR__ . '/functions.php';
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <!-- own css-->
     <link rel=" stylesheet" href="style.css">
+    <!-- own js-->
+    <script type="text/javascript" src="main.js"></script>
 
     <title>Dunder Mifflin !Fake News Site</title>
 </head>
@@ -38,7 +40,7 @@ require __DIR__ . '/functions.php';
                     <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="authors.php">Team</a>
+                    <a class="nav-link" href="index.php">News</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="authors.php">Contact</a>
