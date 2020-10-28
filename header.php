@@ -1,9 +1,8 @@
 <?php
 require __DIR__ . '/data.php';
 require __DIR__ . '/functions.php';
-
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,8 +19,6 @@ require __DIR__ . '/functions.php';
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <!-- own css-->
     <link rel=" stylesheet" href="style.css">
-    <!-- own js-->
-    <script type="text/javascript" src="main.js"></script>
 
     <title>Dunder Mifflin !Fake News Site</title>
 </head>
@@ -37,7 +34,7 @@ require __DIR__ . '/functions.php';
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php">News</a>

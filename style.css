@@ -22,11 +22,14 @@ body {
 }
 
 /*NAV*/
+
 .nav-link,
 .navbar-text {
     font-size: large;
 }
+
 /* HERO header */
+
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("https://i.pinimg.com/originals/7c/31/05/7c31052768c5ed41602ede538fb87dcb.jpg");
@@ -113,6 +116,7 @@ marquee {
 }
 
 /*AUTHORS*/
+
 .authorContainer {
     max-width: 1200px;
     margin: 0 auto;
@@ -183,6 +187,9 @@ marquee {
     font-weight: 400;
 }
 
+.card-text span {
+    font-weight: bold;
+}
 /* FOOTER */
 
 footer {

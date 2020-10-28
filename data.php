@@ -65,7 +65,7 @@ $articles = [
         'author' => $authors[1]['name'],
         'title' => "The people person's paper people",
         'content' => "<p>He has not stopped working... for a second. At 12:45, he sneezed, while keeping his eyes open, which I always thought was impossible. At 1:32 he peed. And I know that because he did that in an open soda bottle, under the desk, while filling out expense reports. And on the flip side, I've been so busy watching him that I haven't even started work. It's exhausting, being this vigilant. I'll probably have to go home early today.</p><p>I don't have a ton of contact with the Scranton branch, but before I left I took a box of Dwight's stationary. So, from time to time I send Dwight faxes. From himself. From the future.</p>",
-        'published_date' => '2020-10-17',
+        'published_date' => '2020-10-7',
         'likes' => '70',
         'image' => 'https://d2j1wkp1bavyfs.cloudfront.net/wp-content/uploads/2018/07/01032321/4236043.jpg?q=50',
         'image_alt' => 'Jim sitting in an office,holding up a sign'

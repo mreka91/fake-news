@@ -3,7 +3,7 @@
 declare(strict_types=1);
 require_once __DIR__ . '/data.php';
 
-// Comparison function to get the newswest post first
+// compare dates to get the newswest post first
 function date_compare(array $element1, array  $element2): int
 {
     $datetime1 = strtotime($element1['published_date']);
@@ -12,7 +12,7 @@ function date_compare(array $element1, array  $element2): int
 }
 
 
-//shorten the  text on the index page
+//shorten the text on the index page
 function shortenText(string $text, $chars = 400): string
 {
     $text = $text . " ";
@@ -23,7 +23,7 @@ function shortenText(string $text, $chars = 400): string
 }
 
 
-//to match the article from the articles array
+//matches the article by id from the articles array
 function getArticleById(array $articles, string $id): array
 {
     foreach ($articles as $article) {

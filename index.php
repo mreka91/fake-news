@@ -36,11 +36,10 @@
                 </div>
                 <hr>
             </div>
+            <!--col end-->
         </div>
+        <!--row end-->
     <?php endforeach ?>
-
-
-
 </main>
 
 <!-- FOOTER-->
