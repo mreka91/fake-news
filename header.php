@@ -46,7 +46,7 @@ require __DIR__ . '/functions.php';
                     <a class="nav-link" href="authors.php">Contact</a>
                 </li>
             </ul>
-            <span class="navbar-text ">
+            <span class="navbar-text">
                 The best paper company in the world
             </span>
         </div>

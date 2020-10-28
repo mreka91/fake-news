@@ -4,7 +4,7 @@
 <!-- ARTICLE-->
 <main class="container">
     <marquee>Breaking news! Read about what happened at Schrute's Beet Farm.</marquee>
-    <?php usort($articles, 'date_compare'); ?>
+
     <?php
     $id = $_GET['id'];
     $article = getArticleById($articles, $id);
@@ -18,7 +18,7 @@
                     <?= $article['title']; ?>
                 </h2>
 
-                <img src="<?= $article['image']; ?>" alt="">
+                <img src="<?= $article['image']; ?>" alt="<?= $article['image_alt']; ?>">
 
                 <p class="post-text">
                     <?= $article['content']; ?>

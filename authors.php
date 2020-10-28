@@ -4,9 +4,9 @@
 <!-- AUTHORS CARDS-->
 
 <div class="authorContainer">
-    <h1>Our team</h1>
+    <h1>The authors</h1>
     <div class="cards">
-        <li class="cards_item">
+        <div class="cards_item">
             <div class="card">
                 <div class="card_image"><img src="<?= $articles[0]['image']; ?>"></div>
                 <div class="card_content">
@@ -15,8 +15,8 @@
 
                 </div>
             </div>
-        </li>
-        <li class="cards_item">
+        </div>
+        <div class="cards_item">
             <div class="card">
                 <div class="card_image"><img src="<?= $articles[2]['image']; ?>"></div>
                 <div class="card_content">
@@ -25,8 +25,8 @@
 
                 </div>
             </div>
-        </li>
-        <li class="cards_item">
+        </div>
+        <div class="cards_item">
             <div class="card">
                 <div class="card_image"><img src="<?= $articles[4]['image']; ?>"></div>
                 <div class="card_content">
@@ -35,8 +35,8 @@
 
                 </div>
             </div>
-        </li>
-        <li class="cards_item">
+        </div>
+        <div class="cards_item">
             <div class="card">
                 <div class="card_image"><img src="<?= $articles[6]['image']; ?>"></div>
                 <div class="card_content">
@@ -45,8 +45,8 @@
 
                 </div>
             </div>
-        </li>
-        <li class="cards_item">
+        </div>
+        <div class="cards_item">
             <div class="card">
                 <div class="card_image"><img src="<?= $articles[9]['image']; ?>"></div>
                 <div class="card_content">
@@ -55,7 +55,7 @@
 
                 </div>
             </div>
-        </li>
+        </div>
 
     </div>
 </div>

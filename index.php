@@ -14,7 +14,6 @@
         $likes = $article['likes'];
         $author = $article['author'];
         $id = $article['id'];
-
         ?>
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
@@ -37,9 +36,10 @@
                 </div>
                 <hr>
             </div>
-
         </div>
     <?php endforeach ?>
+
+
 
 </main>
 
