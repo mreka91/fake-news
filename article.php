@@ -8,28 +8,35 @@
     <?php
     $id = $_GET['id'];
     $article = getArticleById($articles, $id);
-
+    $image = $article['image'];
+    $image_alt = $article['image_alt'];
+    $title = $article['title'];
+    $content = $article['content'];
+    $date = $article['published_date'];
+    $likes = $article['likes'];
+    $author = $article['author'];
     ?>
+
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-preview">
 
                 <h2 class="post-title">
-                    <?= $article['title']; ?>
+                    <?= $title; ?>
                 </h2>
 
-                <img src="<?= $article['image']; ?>" alt="<?= $article['image_alt']; ?>">
+                <img src="<?= $image; ?>" alt="<?= $image_alt; ?>">
 
                 <p class="post-text">
-                    <?= $article['content']; ?>
+                    <?= $content; ?>
                 </p>
 
                 <p class="post-meta">Posted by
-                    <a href="authors.php"><?= $article['author']; ?></a>
-                    <?= $article['published_date']; ?></p>
+                    <a href="authors.php"><?= $author; ?></a>
+                    <?= $date; ?></p>
 
                 <p class="post-meta">Likes:
-                    <?= $article['likes']; ?>
+                    <?= $likes; ?>
                     &#10084;&#65039;
                 </p>
 

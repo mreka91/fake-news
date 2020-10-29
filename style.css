@@ -117,19 +117,19 @@ marquee {
 
 /*AUTHORS*/
 
-.authorContainer {
+.author-container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.authorContainer h1 {
+.author-container h1 {
     font-size: xx-large;
     font-weight: 600;
     text-align: center;
     padding: 20px;
 }
 
-.authorContainer img {
+.author-container img {
     height: auto;
     max-width: 100%;
     vertical-align: middle;
@@ -143,19 +143,19 @@ marquee {
     padding: 0;
 }
 
-.cards_item {
+.cards-item {
     display: flex;
     padding: 1rem;
 }
 
 @media (min-width: 40rem) {
-    .cards_item {
+    .cards-item {
         width: 50%;
     }
 }
 
 @media (min-width: 56rem) {
-    .cards_item {
+    .cards-item {
         width: 33.3333%;
     }
 }
@@ -169,18 +169,18 @@ marquee {
     overflow: hidden;
 }
 
-.card_content {
+.card-content {
     padding: 1rem;
 }
 
-.card_title {
+.card-title {
     font-size: large;
     font-weight: 700;
     letter-spacing: 1px;
     margin: 0px;
 }
 
-.card_text {
+.card-text {
     font-size: medium;
     line-height: 1.5;
     margin-bottom: 1.25rem;

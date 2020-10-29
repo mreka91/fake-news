@@ -7,27 +7,47 @@ declare(strict_types=1);
 $authors = [
     [
         'id' => '1',
-        'name' => 'Dwight Schrute'
+        'name' => 'Dwight Schrute',
+        'description' => "<p>Dwight is trained in the art of surveillance, and is a former Lackawanna County volunteer sheriff's deputy. He has a black belt in Goju-Ryu karate, and is the senpai at his dojo.Dwight is a pop culture and sci-fi enthusiast.</p>",
+        'profil' => 'https://www.denofgeek.com/wp-content/uploads/2020/04/the_office_dwight.jpg.png?resize=768%2C432',
+        'profil_alt' => 'Dwight Schrute',
+        'email' => 'dwight@theoffice.us'
     ],
 
     [
         'id' => '2',
-        'name' => 'Jim Halpert'
+        'name' => 'Jim Halpert',
+        'description' => "<p>Jim is a fan of the Philadelphia Phillies, Philadelphia Eagles, and the Philadelphia 76ers. Jim is also a fan of hip-hop, specifically Eminem. His favourite food is soft-shell crab. Jim began working at Dunder Mifflin in 1998 an rose to the role of co-manager.</p>",
+        'profil' => 'https://d2j1wkp1bavyfs.cloudfront.net/wp-content/uploads/2018/07/01032321/4236043.jpg?q=50',
+        'profil_alt' => 'Jim Halpert',
+        'email' => 'jim@theoffice.us'
     ],
 
     [
         'id' => '3',
-        'name' => 'Pam Beesly'
+        'name' => 'Pam Beesly',
+        'description' => "<p>Pam started out as athe receptionist at Dunder Mifflin, before becoming a saleswoman and eventually office administrator. From her years working the front desk, Pam has become well-acquainted with the Dunder-Mifflin staff and has a thorough understanding of what is happening at the office.</p>",
+        'profil' => 'https://thebrag.com/wp-content/uploads/2020/02/PAMHEAD.jpg',
+        'profil_alt' => 'Pam Beesly',
+        'email' => 'pam@theoffice.us'
     ],
 
     [
         'id' => '4',
-        'name' => 'Michael Scott'
+        'name' => 'Michael Scott',
+        'description' => "<p>Michael Gary Scott was born on March 15, 1964 in Scranton, Pennsylvania. He started at Dunder Mifflin as a salesman in the 1990s. He he became a salesman because he loved to make friends. After being promoted to regional manager at a young age, he continued to treat work-related relationships as personal friendships.</p>",
+        'profil' => 'https://static3.srcdn.com/wordpress/wp-content/uploads/2020/05/michael-scott-feature-image-for-the-office.jpg',
+        'profil_alt' => 'Michael Scott',
+        'email' => 'michael@theoffice.us'
     ],
 
     [
         'id' => '5',
-        'name' => 'Angela Martin'
+        'name' => 'Angela Martin',
+        'description' => "<p>Angela Martin was born on November 11, 1974 in Dayton, Ohio. She has one sister named Rachael who is her best friend. Angela is the senior accountant, head of the Party Planning Committee, and safety officer at the Scranton branch of Dunder Mifflin.</p>",
+        'profil' => 'https://www.datocms-assets.com/151/1471782480-angela.jpg?w=500&fm=jpg',
+        'profil_alt' => 'Angela Martin',
+        'email' => 'angela@theoffice.us'
     ]
 ];
 
