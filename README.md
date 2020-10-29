@@ -47,9 +47,13 @@ The project is built using the following functionality:
 
 ## Feedback
 
-1. 
-2. 
-3. 
-4. 
-5. 
+- You’re being inconsistent in your class names. You’re using kebab cases everywhere except in authors.php where you’re using snake cases. I recommend that you change all classnames to kebab case to be consistent.
+
+- Instead of repeating your code like you do in authors.php I would put all the information you want on the cards in your authors array and use foreach to loop trough it just like you do in index.php.
+
+- You don’t have alt attributes on your images, so maybe you could add that.
+
+-  Personally I would split the CSS into different files to make it easier to navigate.
+
+- Very well written comments!
 
