@@ -40,9 +40,10 @@
                     &#10084;&#65039;
                 </p>
 
-            </div>
-        </div>
-    </div>
+            </div><!-- post-preview end-->
+        </div><!-- col end-->
+    </div><!-- row end-->
 </main>
+
 <!-- FOOTER-->
 <?php require __DIR__ . '/footer.php'; ?>

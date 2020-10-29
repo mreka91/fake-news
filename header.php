@@ -18,7 +18,11 @@ require __DIR__ . '/functions.php';
     <!-- google font-->
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <!-- own css-->
-    <link rel=" stylesheet" href="style.css">
+    <link rel=" stylesheet" href="styles/universal.css">
+    <link rel=" stylesheet" href="styles/header.css">
+    <link rel=" stylesheet" href="styles/index.css">
+    <link rel=" stylesheet" href="styles/author.css">
+    <link rel=" stylesheet" href="styles/footer.css">
 
     <title>Dunder Mifflin !Fake News Site</title>
 </head>

@@ -17,14 +17,29 @@
             ?>
             <div class="cards-item">
                 <div class="card">
-                    <div class="card-image"><img src="<?= $profil; ?>" alt="<?= $profil_alt;  ?>"></div>
-                    <div class="card-content">
-                        <h2 class="card-title"><?= $name; ?></h2>
-                        <p class="card-text"><?= $description ?></P>
-                        <p class="card-text">Contact with hot tips at <span><?= $email; ?></span></p>
+
+                    <div class="card-image">
+                        <img src="<?= $profil; ?>" alt="<?= $profil_alt;  ?>">
                     </div>
-                </div>
-            </div>
+
+                    <div class="card-content">
+
+                        <h2 class="card-title">
+                            <?= $name; ?>
+                        </h2>
+
+                        <p class="card-text">
+                            <?= $description ?>
+                        </P>
+
+                        <p class="card-text">Write with hot tips to
+                            <a href="mailto:<?= $email; ?> ">
+                                <span><?= $email; ?></span>
+                            </a>
+                        </p>
+                    </div><!-- card-content end-->
+                </div><!-- card end-->
+            </div><!-- card-item end-->
         <?php endforeach; ?>
     </div>
 </div>
