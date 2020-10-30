@@ -44,6 +44,7 @@ The project is built using the following functionality:
 
 1. Linn Josefsson
 2. Gilda Eklöf
+3. Márk Mados
 
 ## Feedback
 
