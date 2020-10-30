@@ -43,7 +43,7 @@ The project is built using the following functionality:
 ## Testers
 
 1. Linn Josefsson
-2. 
+2. Gilda Eklöf
 
 ## Feedback
 
