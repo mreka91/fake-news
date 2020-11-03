@@ -80,7 +80,7 @@ $articles = [
     ],
 
     [
-        'id' => '3',
+        'id' => 3,
         'author_id' => 2,
         'author' => $authors[1]['name'],
         'title' => "The people person's paper people",
@@ -92,7 +92,7 @@ $articles = [
     ],
 
     [
-        'id' => '4',
+        'id' => 4,
         'author_id' => 2,
         'author' => $authors[1]['name'],
         'title' => "The people person's paper people",
@@ -104,7 +104,7 @@ $articles = [
     ],
 
     [
-        'id' => '5',
+        'id' => 5,
         'author_id' => 3,
         'author' => $authors[2]['name'],
         'title' => "The people person's paper people",
