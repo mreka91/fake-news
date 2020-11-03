@@ -5,11 +5,10 @@
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-linkedin"></a>
     </div>
-    <p>
-        <p>Copyright &copy;
-            <script>
-                document.write(new Date().getFullYear())
-            </script> Dunder Mifflin<p>
+
+    <p>Copyright &copy;
+        <?php echo date("Y"); ?> Dunder Mifflin
+    </p>
 </footer>
 
 

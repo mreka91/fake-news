@@ -6,7 +6,7 @@ declare(strict_types=1);
 // authors.
 $authors = [
     [
-        'id' => '1',
+        'id' => 1,
         'name' => 'Dwight Schrute',
         'description' => "<p>Dwight is trained in the art of surveillance, and is a former Lackawanna County volunteer sheriff's deputy. He has a black belt in Goju-Ryu karate, and is the senpai at his dojo.Dwight is a pop culture and sci-fi enthusiast.</p>",
         'profil' => 'https://www.denofgeek.com/wp-content/uploads/2020/04/the_office_dwight.jpg.png?resize=768%2C432',
@@ -15,7 +15,7 @@ $authors = [
     ],
 
     [
-        'id' => '2',
+        'id' => 2,
         'name' => 'Jim Halpert',
         'description' => "<p>Jim is a fan of the Philadelphia Phillies, Philadelphia Eagles, and the Philadelphia 76ers. Jim is also a fan of hip-hop, specifically Eminem. His favourite food is soft-shell crab. Jim began working at Dunder Mifflin in 1998 an rose to the role of co-manager.</p>",
         'profil' => 'https://d2j1wkp1bavyfs.cloudfront.net/wp-content/uploads/2018/07/01032321/4236043.jpg?q=50',
@@ -24,7 +24,7 @@ $authors = [
     ],
 
     [
-        'id' => '3',
+        'id' => 3,
         'name' => 'Pam Beesly',
         'description' => "<p>Pam started out as athe receptionist at Dunder Mifflin, before becoming a saleswoman and eventually office administrator. From her years working the front desk, Pam has become well-acquainted with the Dunder-Mifflin staff and has a thorough understanding of what is happening at the office.</p>",
         'profil' => 'https://thebrag.com/wp-content/uploads/2020/02/PAMHEAD.jpg',
@@ -33,7 +33,7 @@ $authors = [
     ],
 
     [
-        'id' => '4',
+        'id' => 4,
         'name' => 'Michael Scott',
         'description' => "<p>Michael Gary Scott was born on March 15, 1964 in Scranton, Pennsylvania. He started at Dunder Mifflin as a salesman in the 1990s. He he became a salesman because he loved to make friends. After being promoted to regional manager at a young age, he continued to treat work-related relationships as personal friendships.</p>",
         'profil' => 'https://static3.srcdn.com/wordpress/wp-content/uploads/2020/05/michael-scott-feature-image-for-the-office.jpg',
@@ -42,7 +42,7 @@ $authors = [
     ],
 
     [
-        'id' => '5',
+        'id' => 5,
         'name' => 'Angela Martin',
         'description' => "<p>Angela Martin was born on November 11, 1974 in Dayton, Ohio. She has one sister named Rachael who is her best friend. Angela is the senior accountant, head of the Party Planning Committee, and safety officer at the Scranton branch of Dunder Mifflin.</p>",
         'profil' => 'https://www.datocms-assets.com/151/1471782480-angela.jpg?w=500&fm=jpg',
@@ -53,7 +53,7 @@ $authors = [
 
 $articles = [
     [
-        'id' => '1',
+        'id' => 1,
         'author_id' => '1',
         'author' => $authors[0]['name'],
         'title' => "The people person's paper people",
@@ -65,7 +65,7 @@ $articles = [
     ],
 
     [
-        'id' => '2',
+        'id' => 2,
         'author_id' => '1',
         'author' => $authors[0]['name'],
         'title' => "The people person's paper people",
@@ -81,7 +81,7 @@ $articles = [
 
     [
         'id' => '3',
-        'author_id' => '2',
+        'author_id' => 2,
         'author' => $authors[1]['name'],
         'title' => "The people person's paper people",
         'content' => "<p>He has not stopped working... for a second. At 12:45, he sneezed, while keeping his eyes open, which I always thought was impossible. At 1:32 he peed. And I know that because he did that in an open soda bottle, under the desk, while filling out expense reports. And on the flip side, I've been so busy watching him that I haven't even started work. It's exhausting, being this vigilant. I'll probably have to go home early today.</p><p>I don't have a ton of contact with the Scranton branch, but before I left I took a box of Dwight's stationary. So, from time to time I send Dwight faxes. From himself. From the future.</p>",
@@ -93,7 +93,7 @@ $articles = [
 
     [
         'id' => '4',
-        'author_id' => '2',
+        'author_id' => 2,
         'author' => $authors[1]['name'],
         'title' => "The people person's paper people",
         'content' => "<p>He has not stopped working... for a second. At 12:45, he sneezed, while keeping his eyes open, which I always thought was impossible. At 1:32 he peed. And I know that because he did that in an open soda bottle, under the desk, while filling out expense reports. And on the flip side, I've been so busy watching him that I haven't even started work. It's exhausting, being this vigilant. I'll probably have to go home early today.</p><p>I don't have a ton of contact with the Scranton branch, but before I left I took a box of Dwight's stationary. So, from time to time I send Dwight faxes. From himself. From the future.</p>",
@@ -105,7 +105,7 @@ $articles = [
 
     [
         'id' => '5',
-        'author_id' => '3',
+        'author_id' => 3,
         'author' => $authors[2]['name'],
         'title' => "The people person's paper people",
         'content' => "<p>I can tell Michael's mood by which comedy routine he chooses to do. The more infantile, the more upset he is. And he just skipped the Ace Ventura talking butt thing. He never skips it. This is bad.</p><p>I feel God in this Chili’s tonight I don’t care what they say about me. I just want to eat. Which I realize is a lot to ask for. At a dinner party. I’m guessing Angela is the one in the neighborhood that gives the trick-or-treaters toothbrushes. Pennies. Walnuts. How is it possible that in five years, I’ve had two engagements and only one chair?</p><p>I have decided that I'm going to be more honest. I'm gonna start telling people what I want, directly. So, look out world, 'cuz 'ol Pamy is gettin' what she wants. And, don't call me Pamy.</p><p>When a child gets behind the wheel of a car and runs into a tree, you don't blame the child; he didn't know any better. You blame the 30-year-old woman who got in the passenger seat and said, 'Drive, kid; I trust you.'</p>",
@@ -116,7 +116,7 @@ $articles = [
     ],
 
     [
-        'id' => '6',
+        'id' => 6,
         'title' => "The people person's paper people",
         'author_id' => '3',
         'author' => $authors[2]['name'],
@@ -128,7 +128,7 @@ $articles = [
     ],
 
     [
-        'id' => '7',
+        'id' => 7,
         'author_id' => '4',
         'author' => $authors[3]['name'],
         'title' => "The people person's paper people",
@@ -140,7 +140,7 @@ $articles = [
     ],
 
     [
-        'id' => '8',
+        'id' => 8,
         'author_id' => '4',
         'author' => $authors[3]['name'],
         'title' => "The people person's paper people",
@@ -152,7 +152,7 @@ $articles = [
     ],
 
     [
-        'id' => '9',
+        'id' => 9,
         'author_id' => '5',
         'author' => $authors[4]['name'],
         'title' => "The people person's paper people",
@@ -165,7 +165,7 @@ $articles = [
     ],
 
     [
-        'id' => '10',
+        'id' => 10,
         'author_id' => '5',
         'author' => $authors[4]['name'],
         'title' => "The people person's paper people",

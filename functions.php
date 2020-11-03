@@ -24,7 +24,7 @@ function shortenText(string $text, $chars = 400): string
 
 
 //matches the article by id from the articles array
-function getArticleById(array $articles, string $id): array
+function getArticleById(array $articles, int $id): array
 {
     foreach ($articles as $article) {
         if ($article['id'] === $id) {
